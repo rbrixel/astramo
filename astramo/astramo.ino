@@ -1,7 +1,13 @@
 /*
- * [ASTRAMO]
+ * [ASTRAMO] - V0.1
  * René Brixel
- * V0.1 - 2022-01-11
+ * 
+ * Settings for microcontroller
+ * ----------------------------
+ * Board: ATtiny25/45/85
+ * Processor: ATtiny85
+ * Clock: Internal 1 MHz
+ * Board-Lib: https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
  */
 
 int pinVin = 3; // Measure lipo-voltage-level over voltage divider
@@ -24,13 +30,14 @@ void setup() {
   pinMode(ledIr, OUTPUT);
   pinMode(ledTracer, OUTPUT);
 
-  attachInterrupt(pinIr, TracerFire, FALLING); // goto if voltage is falling
+  attachInterrupt(pinIr, TracerFire, FALLING); // goto if voltage is falling and and bb passthrough light barrier
   //attachInterrupt(digitalPinToInterrupt(pinIr), TracerFire, FALLING); // goto if voltage is falling
 }
 
 void loop() {
+  // TODO
 }
 
 void TracerFire() {
-  
+  // TODO
 }

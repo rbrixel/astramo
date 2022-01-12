@@ -18,7 +18,7 @@ Because the project is not finished yet, I save some info here :)
 - TSOP 4838 IR-receiver-module, 38kHz, 90°, Side-View (Reichelt: TSOP 4838)
 - IR-LED with a wavelenght of 940nm
 
-### Simple IR photoelectric barrier
+### IR photoelectric barrier
 - IR-LED (Reichelt: LD 274-3)
 - Receiver photdiode (Reichelt: SFH 203)
 
